@@ -1,28 +1,28 @@
 import { memo } from "react";
 import { Carousel } from "antd";
 
-const contentStyle: React.CSSProperties = {
-  height: "160px",
-  color: "#fff",
-  lineHeight: "160px",
-  textAlign: "center",
-  background: "#364d79",
-};
-
 const CarouselHero = () => {
   return (
     <Carousel autoplay>
       <div>
-        <h3 style={contentStyle}>1</h3>
+        <h3 className="bg-gray-200  h-50 text-black flex items-center justify-center text-2xl">
+          1
+        </h3>
       </div>
       <div>
-        <h3 style={contentStyle}>2</h3>
+        <h3 className="bg-gray-200  h-50 text-black flex items-center justify-center text-2xl">
+          2
+        </h3>
       </div>
       <div>
-        <h3 style={contentStyle}>3</h3>
+        <h3 className="bg-gray-200  h-50 text-black flex items-center justify-center text-2xl">
+          3
+        </h3>
       </div>
       <div>
-        <h3 style={contentStyle}>4</h3>
+        <h3 className="bg-gray-200  h-50 text-black flex items-center justify-center text-2xl">
+          4
+        </h3>
       </div>
     </Carousel>
   );
